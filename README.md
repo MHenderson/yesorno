@@ -1,2 +1,2 @@
 # yesno
-R wrapper for yesno.wtf (Yes/No as a service).
+R wrapper for https://yesno.wtf (Yes/No as a service).
