@@ -1,5 +1,5 @@
 # yesno
-R wrapper for yesno.wtf (Yes/No as a service).
+R wrapper for https://yesno.wtf (Yes/No as a service).
 
 ```r
 drat::addRepo("MHenderson")
@@ -18,4 +18,3 @@ $image
 ```
 
 ![yesno](https://www.yesno.wtf/assets/no/16-b66d2db7543f5259c86abc166d6901cf.gif)
-
