@@ -11,3 +11,5 @@ LazyData: TRUE
 RoxygenNote: 5.0.1
 Imports:
     jsonlite
+URL: https://github.com/MHenderson/yesno
+BugReports: https://github.com/MHenderson/yesno/issues
