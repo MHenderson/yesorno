@@ -4,7 +4,7 @@
 \alias{yesno}
 \title{You need api, bro?}
 \usage{
-yesno(force = "no")
+yesno(force = FALSE)
 }
 \arguments{
 \item{force}{Force answer}
