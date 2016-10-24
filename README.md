@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/MHenderson/yesno.svg?branch=master)](https://travis-ci.org/MHenderson/yesno)
+
 # yesno
 R wrapper for https://yesno.wtf (Yes/No as a service).
 
