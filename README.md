@@ -3,6 +3,7 @@ R wrapper for https://yesno.wtf (Yes/No as a service).
 
 ```r
 drat::addRepo("MHenderson")
+install.packages("yesno")
 ```
 
 ```r
