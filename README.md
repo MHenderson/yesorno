@@ -4,7 +4,7 @@
 
 # yesno
 
-<http://mhenderson.github.io/yesno/>:
+<http://mhenderson.github.io/yesno/>
 
 R wrapper for https://yesno.wtf (Yes/No as a service).
 
