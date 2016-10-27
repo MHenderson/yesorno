@@ -35,9 +35,17 @@
 
 <div id="yesno" class="section level1">
 <div class="page-header"><h1 class="hasAnchor"><a href="#yesno" class="anchor"></a>yesno</h1></div>
+<p><a href="http://mhenderson.github.io/yesno/" class="uri">http://mhenderson.github.io/yesno/</a></p>
 <p>R wrapper for <a href="https://yesno.wtf" class="uri">https://yesno.wtf</a> (Yes/No as a service).</p>
+<div id="installation" class="section level2">
+<h2 class="hasAnchor">
+<a href="#installation" class="anchor"></a>Installation</h2>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">drat::<span class="kw">addRepo</span>(<span class="st">"MHenderson"</span>)
 <span class="kw">install.packages</span>(<span class="st">"yesno"</span>)</code></pre></div>
+</div>
+<div id="usage" class="section level2">
+<h2 class="hasAnchor">
+<a href="#usage" class="anchor"></a>Usage</h2>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">&gt;<span class="st"> </span>yesno::<span class="kw"><a href="reference/yesno.html">yesno</a></span>(<span class="dt">force =</span> <span class="st">"yes"</span>)
 $answer
 [<span class="dv">1</span>] <span class="st">"yes"</span>
@@ -48,6 +56,7 @@ $forced
 $image
 [<span class="dv">1</span>] <span class="st">"https://www.yesno.wtf/assets/yes/13-c3082a998e7758be8e582276f35d1336.gif"</span></code></pre></div>
 <p><img src="https://www.yesno.wtf/assets/yes/13-c3082a998e7758be8e582276f35d1336.gif" alt="yesno"></p>
+</div>
 </div>
 
   </div>
@@ -62,6 +71,12 @@ $image
 
     <html><body><h2>Dev status</h2><ul class="list-unstyled"><li><a href="https://travis-ci.org/MHenderson/yesno">
   <img src="https://travis-ci.org/MHenderson/yesno.svg?branch=master" alt="Build Status"></a></li>
+<li><a href="https://ci.appveyor.com/project/MHenderson/yesno">
+  <img src="https://ci.appveyor.com/api/projects/status/github/MHenderson/yesno?branch=master&amp;svg=true" alt="AppVeyor Build Status"></a></li>
+<li><a href="https://cran.r-project.org/package=yesno">
+  <img src="http://www.r-pkg.org/badges/version/yesno" alt="CRAN_Status_Badge"></a></li>
+<li><a href="https://codecov.io/github/MHenderson/yesno?branch=master">
+  <img src="https://img.shields.io/codecov/c/github/MHenderson/yesno/master.svg" alt="Coverage Status"></a></li>
 <li><a href="https://gitter.im/yesnorpackage/Lobby?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge">
   <img src="https://badges.gitter.im/yesnorpackage/Lobby.svg" alt="Join the chat at https://gitter.im/yesnorpackage/Lobby"></a></li>
 </ul></body></html></div>
