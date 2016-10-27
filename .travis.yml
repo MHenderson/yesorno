@@ -19,7 +19,7 @@ after_failure:
   - ./pkg-build.sh dump_logs
 
 after_success:
-  - Rscript -e 'covr::codecov()'
+  - bash <(curl -s https://codecov.io/bash)
 
 notifications:
   email:
