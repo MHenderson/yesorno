@@ -32,3 +32,9 @@ $image
 ```
 
 ![yesno](https://www.yesno.wtf/assets/yes/13-c3082a998e7758be8e582276f35d1336.gif)
+
+## Slack
+
+```{r}
+slackr::slackr_msg(yesno::yesno(force = "yes")$image)
+```
