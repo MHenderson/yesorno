@@ -1,0 +1,49 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# yesno
+
+R wrapper for https://yesno.wtf (Yes/No as a service).
+
+## Installation
+
+You can install **yesno** using Dirk Eddelbeutel's **drat** package.
+
+```{r drat-installation, eval = FALSE}
+# install.packages("drat")
+drat::addRepo("MHenderson")
+install.packages("yesno")
+```
+
+You can also install **yesno** from Github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("MHenderson/yesno")
+```
+
+## Example
+
+```{r example}
+yesno::yesno(force = "yes")
+```
+
+## RMarkdown
+
+To embed the `yesno()$image` GIF in an RMarkdown document do something like the
+following.
+
+```{r, results = "asis"}
+cat(sprintf("![](%s)", yesno::yesno()$image))
+```
