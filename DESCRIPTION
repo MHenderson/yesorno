@@ -1,7 +1,7 @@
-Package: yesno
+Package: yesorno
 Type: Package
 Title: Yes/No as a service
-Version: 0.1.2
+Version: 0.1.0
 Authors@R: person("Matthew", "Henderson", email = "matthew.james.henderson@gmail.com",
                   role = c("aut", "cre"))
 Maintainer: Matthew Henderson <matthew.james.henderson@gmail.com>
@@ -14,5 +14,4 @@ Imports:
     jsonlite
 URL: https://github.com/MHenderson/yesno
 BugReports: https://github.com/MHenderson/yesno/issues
-Suggests: testthat,
-    covr
+Suggests: testthat
