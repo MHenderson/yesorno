@@ -6,3 +6,6 @@
 ^codecov\.yml$
 ^README\.Rmd$
 ^README-.*\.png$
+^yesno\.Rcheck$
+^yesno.*\.tar\.gz$
+^yesno.*\.tgz$
