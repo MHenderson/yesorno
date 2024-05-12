@@ -9,3 +9,6 @@
 ^yesno\.Rcheck$
 ^yesno.*\.tar\.gz$
 ^yesno.*\.tgz$
+^yesorno\.Rcheck$
+^yesorno.*\.tar\.gz$
+^yesorno.*\.tgz$
